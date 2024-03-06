@@ -51,3 +51,9 @@ Use the following command in the project directory to start the application:
   ```sh
   python app.py
   ```
+
+## Front end
+
+The project's frontend, developed using HTML, CSS, and JavaScript, is part of a study addressing academic challenges faced by children, especially those with ADHD. It focuses on enhancing summarizing skills through advanced algorithms and LLMs, aiming to improve engagement and academic outcomes. The project seeks to bridge the educational technology gap and promote inclusive education by providing a specialized evaluation tool for both ADHD-diagnosed and neurotypical students.
+
+![Frontend](assets/frontend.png)
