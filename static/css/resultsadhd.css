@@ -1,0 +1,42 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    background: #181818;
+    color: #000000;
+}
+
+.score {
+    color: white;
+    margin-top: 7%;
+    margin-left: 30px;
+}
+
+.score h1 {
+    color: #c71d1d
+}
+
+.wordingScore {
+    color: #c71d1d
+}
+
+.contentScore {
+    color: #c71d1d
+}
+
+.heading {
+    color: white;
+    margin-left: 30px;
+}
+
+.heading h1 {
+    color: #c71d1d
+}
+
+.markdownContent{
+    color: white;
+    margin-bottom: 10%;
+    margin-left: 30px;
+}
+

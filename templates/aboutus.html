@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/navbar_footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/aboutpage.css') }}">
+    <title>Automated Evaluation of Student Summaries: A Learning Aid</title>
+  </head>
+  <body>
+    {% include 'navbar.html' %}
+
+    <div class="about_adhd">
+      <h1>About ADHD</h1>
+    </div>
+
+
+    <div class="Aboutuspage">
+      <div class="what_is_adhd_content">
+        <div class="what_is_adhd">
+            <h2>What is ADHD?</h2>
+            <p>Attention deficit hyperactivity disorder (ADHD) is a neurodevelopmental disorder characterized by inattention, or excessive activity and impulsivity, which are otherwise not appropriate for a person's age. Some individuals with ADHD also display difficulty regulating emotions or problems with executive function. For a diagnosis, the symptoms should appear before a person is twelve years old, be present for more than six months, and cause problems in at least two settings (such as school, home, or recreational activities). In children, problems paying attention may result in poor school performance. Additionally, there is an association with other mental disorders and substance misuse. Although it causes impairment, particularly in modern society, many children with ADHD have a good attention span for tasks they find interesting.</p>
+        </div>
+        <div class="what_is_adhd_image">
+            <img src="{{ url_for('static', filename='images/9783986539856.jpg') }}" alt="What is ADHD?">
+        </div>
+      </div>
+  
+      <div class="Definition_Diagnosis">
+          <h2>Definition and Diagnosis</h2>
+          <p>The relied on definition is set out by the  Diagnostic and Statistical Manual of Mental Disorders. <b>These criteria are presented in shortened form and are for information only. Diagnosis can only be done by a medical professional.</b></p>
+      </div>
+
+      <div class="inattention">
+        <h5>Inattention</h5>
+        <br>
+        <p>Six or more symptoms of inattention for children up to age 16 years, or five or more for adolescents age 17 years and older and adults; symptoms of inattention have been present for at least 6 months, and they are inappropriate for developmental level:</p>
+
+        <ul>
+          <li>Often fails to give close attention to details or makes careless mistakes in schoolwork, at work, or with other activities.</li>
+          <li>Often has trouble holding attention on tasks or play activities.</li>
+          <li>Often does not seem to listen when spoken to directly.</li>
+          <li>Often does not follow through on instructions and fails to finish schoolwork, chores, or duties in the workplace (e.g., loses focus, side-tracked).</li>
+          <li>Often has trouble organising tasks and activities.</li>
+          <li>Often avoids, dislikes, or is reluctant to do tasks that require mental effort over a long period of time (such as schoolwork or homework).</li>
+          <li>Often loses things necessary for tasks and activities (e.g. school materials, pencils, books, tools, wallets, keys, paperwork, eyeglasses, mobile telephones).</li>
+          <li>Is often easily distracted</li>
+          <li>Is often forgetful in daily activities.</li>
+        </ul>
+
+        <br>
+
+        <h5>Hyperactivity and Impulsivity</h5>
+        <br>
+        <p>Six or more symptoms of hyperactivity-impulsivity for children up to age 16 years, or five or more for adolescents age 17 years and older and adults; symptoms of hyperactivity-impulsivity have been present for at least 6 months to an extent that is disruptive and inappropriate for the person’s developmental level:</p>
+
+        <ul>
+          <li>Often fidgets with or taps hands or feet, or squirms in seat.</li>
+          <li>Often leaves seat in situations when remaining seated is expected.</li>
+          <li>Often runs about or climbs in situations where it is not appropriate (adolescents or adults may be limited to feeling restless).</li>
+          <li>Often unable to play or take part in leisure activities quietly.</li>
+          <li>Is often “on the go” acting as if “driven by a motor”.</li>
+          <li>Often talks excessively.</li>
+          <li>Often blurts out an answer before a question has been completed.</li>
+          <li>Often has trouble waiting their turn.</li>
+          <li>Often interrupts or intrudes on others (e.g. butts into conversations or game)</li>
+        </ul>
+
+        <p>In addition, the following conditions must be met:</p>
+
+        <ul>
+          <li>Several inattentive or hyperactive-impulsive symptoms were present before age 12 years.</li>
+          <li>Several symptoms are present in two or more settings, (such as at home, school or work; with friends or relatives; in other activities).</li>
+          <li>There is clear evidence that the symptoms interfere with, or reduce the quality of, social, school, or work functioning.</li>
+          <li>The symptoms are not better explained by another mental disorder (such as a mood disorder, anxiety disorder, dissociative disorder, or a personality disorder). The symptoms do not happen only during the course of schizophrenia or another psychotic disorder.</li>
+        </ul>
+
+        <br>
+
+        <h5>Diagnosing ADHD in Adults</h5>
+        <p>ADHD often lasts into adulthood. To diagnose ADHD in adults and adolescents age 17 years or older, only 5 symptoms are needed instead of the 6 needed for younger children. Symptoms might look different at older ages. For example, in adults, hyperactivity may appear as extreme restlessness or wearing others out with their activity. If you are an adult looking for indications that you might have ADHD you can take the WHO screener survey here. </p>
+
+        <br>
+
+        <h6>Presentation:</h6>
+        <p>There is a persistent thought from some parts of the general population that ADHD requires some form of hyper-activity. This is not the case.  Based on the above criteria there are three kinds (presentations) of ADHD that can occur. Because symptoms can change over time, the presentation may change over time as well</p>
+
+        <p>
+          <b>Combined Presentation (50-75%):</b> if enough symptoms of both criteria inattention and hyperactivity-impulsivity were present for the past 6 months <br><br>
+          <b>Predominantly Inattentive Presentation (20%-30%):</b> if enough symptoms of inattention, but not hyperactivity-impulsivity, were present for the past six months <br><br>
+          <b>Predominantly Hyperactive-Impulsive Presentation (15%):</b> if enough symptoms of hyperactivity-impulsivity, but not inattention, were present for the past six months. 
+        </p>
+      </div>
+
+      <div class="Incidence">
+        <h2>Incidence</h2>
+        <br>Summary: We believe the best data is for the UK is from the Lancet and NICE giving a childhood incidence rate of 5% and an adult incidence rate of 3-4%. That provides for a total estimate of 2.6million people in the UK with ADHD (694,000 children, 1.9 million). For a full breakdown of this population estimate. <br><br>
+          <b>Childhood ADHD:</b> In the UK, a research survey of 10,438 children between the ages of 5 and 15 years found that 3.62% of boys and 0.85% of girls had ADHD [Journal of Attention Disorders]. Global prevalence is considered to be between 2 and 7% with an average of 5%. [The Lancet]. The challenge for getting an exact incidence is that different countries, organisations, and professionals draw the line in different places for where they consider impairment to start, and therefore where they consider naming ADHD. Research conducted in Newcastle showed prevalence of 11% when asking about the symptoms but not looking for impairment. Then with impairment they found 6.7% with moderately low impairment, 4.2% for moderate impairments, and 1.4% for severe pervasive impairment. [European Child & Adolescent Psychiatry]. Regarding the gender split (roughly 4:1 boys:girls) there is an active discussion about whether female ADHD is under-diagnosed and if so the reasons for that. <br><br>
+          <b>Adult ADHD:</b> ADHD changes with age (see below). It is thought that some children no longer have impairments; however, the majority, around 65%, retain some impairments in adulthood. The same study estimated prevalence of adult ADHD at 4.4%.  [The American Journal of Psychiatry]. The UK Nice guidelines provide for an adult incidence rate of between 3 and 4%. In our population estimate we use the mid-point number of 3.5%.</p>
+
+        <br> 
+        <h2>How the impact of ADHD changes with age</h2>
+        <p>The impact of ADHD differs with age reflecting both the changing maturity of the individual and the changing circumstances and expectations on them. As they mature an individual may be better able to cope but they may continue to struggle due to the increased behavioural expectations on them. [Disorders of attention and activity]. For those with hyperactivity a child may command incessant and demanding extremes of activity; then as an adolescent moving to fidgeting instead of larger movements, and as adult having a sustained inner sense of restlessness.  Inattention may diminish in absolute terms, and attention span normally improves with age, but it usually lags behind that of unaffected people, and behind the level that is expected and needed for everyday attainments [NICE guidelines p16]</p>
+        
+        <br>
+        <h2>What causes ADHD?</h2>
+        <p>There is no one cause of ADHD. It is considered to be a result of an often complex interplay between genetic and environmental factors – with genetic factors being responsible for 70%-80% of the probability [Journal of Learning Disabilities].</p>
+
+        <br>
+        <h2>Treatment</h2>
+        <p>Treatment plans are dependent on an individual’s specific circumstance. The options, used individually or together, include:</p>
+        <ul>
+          <li>Psychological therapies (including;  psychoeducational input, behavioural therapy, and cognitive behavioural therapy [CBT] either alone or in groups)</li>
+          <li>Interpersonal psychotherapy (IPT)</li>
+          <li>Social skills training</li>
+          <li>Generally for children; family therapy,  school-based interventions, parent or carer management training, occupational therapy, speech and language therapy.</li>
+          <li>Medication</li>
+        </ul>
+      </div>
+
+    </div>
+
+
+    
+
+
+  
+
+    {% include 'footer.html' %}
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/navbar_footer.js') }}"></script>
+  </body>
+</html>

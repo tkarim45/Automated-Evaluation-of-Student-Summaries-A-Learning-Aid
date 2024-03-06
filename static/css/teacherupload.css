@@ -1,0 +1,84 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    background: #181818;
+    color: #000000;
+}
+
+.backgroundimg {
+    background-image: url('https://img.freepik.com/free-vector/gradient-black-background-with-golden-textures_52683-76748.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+    position: relative;
+}
+
+.welcome {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload {
+    text-align: center; /* Center the button */
+    padding-top: 33%; /* Add some margin between the welcome div and the button */
+    margin-left: 615px;
+    width: 450px;
+}
+
+.upload input {
+    background-color: #4CAF50; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 30px; /* Some padding */
+    font-size: 18px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    border-radius: 5px;
+    width: 15%;
+    transition: background-color 0.3s ease;
+    
+}
+
+.upload input:hover {
+    background-color: #2980b9;
+}
+
+/* Style for the file input appearance */
+.upload label {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload label:hover {
+    background-color: #3e8e41;
+}
+
+.upload input[type="file"] {
+    display: none; /* Hide the default file input */
+}
+
+/* Styling for the output container */
+#output {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

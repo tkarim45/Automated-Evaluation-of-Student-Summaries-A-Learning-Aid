@@ -1,0 +1,76 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    background: #181818;
+    color: #000000;
+}
+
+.backgroundimg {
+    background-image: url('https://images.unsplash.com/photo-1675524375058-0b0f72f5d3b8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGFkaGR8ZW58MHwwfDB8fHww');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+    position: relative;
+}
+
+.welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    border-radius: 10px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.separator {
+    height: 50px;
+    width: 2px;
+    background-color: white;
+    margin: 0 10px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: medium;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button.yes {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    margin-right: 40px;
+}
+
+button.no {
+    background-color: #FF6347; /* Tomato */
+    color: white;
+    margin-left: 40px;
+}
+
+button.dontknow {
+    background-color: #4285F4; /* Blue */
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+button:hover {
+    background-color: #333; /* Darker background on hover */
+}

@@ -1,0 +1,67 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    background: #181818;
+    color: #000000;
+}
+
+.about_adhd{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    background-color: #6f0f0f;
+    padding: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+} 
+
+.Aboutuspage {
+    color: white;
+    align-items: center;
+}
+
+
+.what_is_adhd_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.what_is_adhd {
+    flex: 1;
+    padding: 20px;
+    margin-left: 300px;
+}
+
+.what_is_adhd_image {
+    flex: 1;
+    text-align: right;
+    padding: 20px;
+    margin-right: 300px;
+}
+
+.Definition_Diagnosis {
+    padding: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.inattention {
+    padding: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.Incidence {
+    padding: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+
+.h5, h5 {
+    color: #c71d1d !important;
+}

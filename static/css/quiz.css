@@ -1,0 +1,52 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    background: #181818;
+    color: #000000;
+}
+
+.backgroundimg {
+    background-image: url('https://img.freepik.com/free-vector/gradient-black-background-with-golden-textures_52683-76748.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+    position: relative;
+}
+
+.welcome {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.startquiz {
+    text-align: center; /* Center the button */
+    padding-top: 34%; /* Add some margin between the welcome div and the button */
+}
+
+.startquiz button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 24px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    border-radius: 5px;
+    width: 28%;
+}
+
+.startquiz button:hover {
+    background-color: #3e8e41;
+}

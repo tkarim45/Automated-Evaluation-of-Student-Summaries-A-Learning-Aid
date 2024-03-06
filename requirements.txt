@@ -1,0 +1,6 @@
+transformers
+torch
+google-generativeai
+pandas
+numpy
+flask
