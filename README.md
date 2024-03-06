@@ -22,7 +22,6 @@ This project addresses the academic challenges faced by children, particularly t
 
 - [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 - [![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
-[![BARD](https://img.shields.io/badge/BARD-000000?style=for-the-badge&logo=bard&logoColor=blue)](https://gemini.google.com)
 
 
 ## Getting Started
