@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-version https://git-lfs.github.com/spec/v1
-oid sha256:bd5bca42f4a2e44942d9493dcf3f332ca5bbd23b78842ade22e767aab66b7bc7
-size 2096
-=======
 # Automated-Evaluation-of-Student-Summaries-A-Learning-Aid
 
 <p align="center">
@@ -51,4 +46,3 @@ Use the following command in the project directory to start the application:
   ```sh
   python app.py
   ```
->>>>>>> origin/main
