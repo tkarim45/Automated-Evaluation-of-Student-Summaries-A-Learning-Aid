@@ -18,6 +18,11 @@ This project addresses the academic challenges faced by children, particularly t
 4. Provide educators and students with a specialized evaluation tool to address academic challenges.
 5. Contribute to inclusive education by leveraging technology to support students with diverse neurological profiles.
 
+## Built With
+
+- [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white)](https://pytorch.org/)
+- [![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
