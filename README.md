@@ -6,6 +6,14 @@
 
 Data Science project using transformers to evaluate summaries written by students with ADHD and normal students
 
+## Table of Contents
+
+1. [About The Project](#about-the-project)
+2. [Objectives](#objectives)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Front-end](#front-end)
+
 ## About The Project
 
 This project addresses the academic challenges faced by children, particularly those diagnosed with Attention Deficit Hyperactivity Disorder (ADHD), in grades 3 through 12. The research delves into issues such as summarization difficulties, impulse control, mental organization, and concentration. Leveraging sophisticated summary scoring algorithms and Large Language Models (LLMs), the study aims to improve summarizing skills in both ADHD-diagnosed and neurotypical students. The overarching goal is to enhance student engagement, boost self-confidence, and improve academic outcomes, while also bridging the EDTech gap for educators and students.
@@ -53,7 +61,7 @@ Use the following command in the project directory to start the application:
   python app.py
   ```
 
-## Front end
+## Front-end
 
 The project's frontend, developed using HTML, CSS, and JavaScript, is part of a study addressing academic challenges faced by children, especially those with ADHD. It focuses on enhancing summarizing skills through advanced algorithms and LLMs, aiming to improve engagement and academic outcomes. The project seeks to bridge the educational technology gap and promote inclusive education by providing a specialized evaluation tool for both ADHD-diagnosed and neurotypical students.
 
