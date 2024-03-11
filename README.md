@@ -1,4 +1,4 @@
-# Automated-Evaluation-of-Student-Summaries-A-Learning-Aid
+<h1 align="center">Automated-Evaluation-of-Student-Summaries-A-Learning-Aid</h1>
 
 <p align="center">
   <img src="assets/Logo.png" alt="Project Overview" width="350">
