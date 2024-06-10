@@ -36,6 +36,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // Modify the content as needed
     var modifiedContent = markdownContent.replace(/Incomplete sentence/g, "Improved sentence");
 
+    console.log(markdownContent);
+    console.log(contentScore);
+    console.log(wordingScore);
+
     // Display the modified content in the HTML
     document.getElementById('markdownContent').innerHTML = modifiedContent;
     document.getElementById('contentScore').innerHTML = contentScore;

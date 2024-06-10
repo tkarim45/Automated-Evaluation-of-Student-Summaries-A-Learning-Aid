@@ -1,0 +1,31 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    background: #181818;
+    color: #000000;
+}
+
+.background-image {
+    background-image: url('https://img.freepik.com/free-photo/medical-stethoscope-isolated-with-black-background-medical-concept-stethoscope-black-background-with-space-text-health-concept-medical-conceptual_1391-769.jpg?w=2000&t=st=1717507009~exp=1717507609~hmac=8fb296d257d753e0e83467f4c78fae69e0e08571fe3f83e106beb81ec1fc01ef');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+    position: relative;
+}
+
+.registerclass{
+    position: absolute;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 750px;
+    width: 100%;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.6);
+    margin-top: 200px;
+    margin-left: 450px;
+
+}
+
+

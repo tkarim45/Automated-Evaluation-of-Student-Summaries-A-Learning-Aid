@@ -59,8 +59,23 @@ button {
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 21%;
+    margin-right: 15px;
 }
 
 button:hover {
     background-color: #45a049;
+}
+
+.backbuttom {
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 21%;
+}
+
+.backbuttom:hover {
+    background-color: #be3329;
 }

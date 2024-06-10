@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">AESS</a>
+      <a class="navbar-brand" href="{{ url_for('index') }}">AESS</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -17,8 +17,9 @@
               Login
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
-              <li><a class="dropdown-item" href="{{ url_for('teacher') }}">Teacher</a></li>
-              <li><a class="dropdown-item" href="{{ url_for('student') }}">Student</a></li>
+          
+              <li><a class="dropdown-item" href="{{ url_for('loginTeacher') }}">Teacher</a></li>
+              <li><a class="dropdown-item" href="{{ url_for('loginStudent') }}">Student</a></li>
             </ul>
           </li>
         </ul>

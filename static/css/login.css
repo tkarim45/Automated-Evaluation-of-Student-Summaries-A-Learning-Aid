@@ -1,0 +1,31 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    background: #181818;
+    color: #000000;
+}
+
+.background-image {
+    background-image: url('https://img.freepik.com/free-photo/doctor-standing-with-his-arms-crossed-with-copy-space_23-2148813557.jpg?t=st=1717506562~exp=1717510162~hmac=3623e9f9a81dd913eab2b1576d2f098bb1df2e9d1baa33990414f9881d5035cf&w=2000');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+    position: relative;
+}
+
+.login{
+    position: absolute;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 750px;
+    width: 100%;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.7);
+    margin-top: 250px;
+    margin-left: 150px;
+
+}
+
+

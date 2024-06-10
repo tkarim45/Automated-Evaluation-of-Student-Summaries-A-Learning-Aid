@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function () {
 
     // Access the markdown content from the script block
@@ -12,6 +13,9 @@ document.addEventListener('DOMContentLoaded', function () {
     // add percentage sign to the content score and wording score
     contentScore += " %";
     wordingScore += " %";
+
+    // Access the markdown content from the script block
+    var markdownContent = window.markdownContent;
 
     // remove ** from the markdown content
     markdownContent = markdownContent.replace(/\*\*/g, "");
@@ -41,6 +45,3 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('contentScore').innerHTML = contentScore;
     document.getElementById('wordingScore').innerHTML = wordingScore;
 });
-
-
-
