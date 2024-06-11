@@ -22,9 +22,11 @@ from argparse import Namespace
 import pickle
 from flask_sqlalchemy import SQLAlchemy
 import bcrypt
+from dotenv import load_dotenv
 
 app = Flask(__name__)
 
+load_dotenv()
 
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"
 db = SQLAlchemy(app)
@@ -131,7 +133,8 @@ model_adhd_debarta.load_state_dict(
 )
 model_adhd_debarta.eval()
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDknsuaSlcs3rAn5coQ_8GI_unD58XjQDc"
+api_key = os.getenv("GOOGLE_API_KEY")
+os.environ["GOOGLE_API_KEY"] = api_key
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 model = genai.GenerativeModel("gemini-pro")
 

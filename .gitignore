@@ -9,3 +9,5 @@ instance/
 Poster/
 
 Model Training/Dataset
+
+.env
