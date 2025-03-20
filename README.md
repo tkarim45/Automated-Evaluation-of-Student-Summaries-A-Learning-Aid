@@ -58,10 +58,35 @@ Follow these steps to set up the project locally:
    The app will launch at `http://localhost:3000` in your browser.
 
 4. **Build for Production** (optional)
+
    ```bash
    npm run build
    ```
+
    Creates an optimized build in the `build/` folder.
+
+5. **Download Model Weights**
+   Download the model weights from [this link](https://drive.google.com/drive/folders/1xQ5y4x8gG6-eVcKEB-eWlVHbn531mluy?usp=share_link) and place the folder in the `backend` directory.
+
+6. **Install Backend Dependencies**
+   Navigate to the `backend` directory and install the required dependencies:
+
+   ```bash
+   cd backend
+   pip install -r requirements.txt
+   ```
+
+7. **Run the Backend Server**
+   Start the backend server by running:
+
+   ```bash
+   unicorn main:app --reload
+   ```
+
+   The backend will run on `http://localhost:8000`.
+
+8. **Access the Application**
+   Open your web browser and go to `http://localhost:3000` to access the frontend. The frontend will communicate with the backend running on `http://localhost:8000`.
 
 ## Environment Variables
 
