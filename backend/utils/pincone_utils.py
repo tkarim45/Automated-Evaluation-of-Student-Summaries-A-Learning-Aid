@@ -6,17 +6,21 @@ import google.generativeai as genai
 import os
 from dotenv import load_dotenv
 
-PINECONE_API_KEY = (
-    ""
-)
+load_dotenv()
+
+
+PINECONE_API_KEY_ = os.getenv("PINECONE_API_KEY")
+GENAI_API_KEY = os.getenv("GOOGLE_API_KEY")
+
+PINECONE_API_KEY = PINECONE_API_KEY_
 INDEX_NAME = "adhd-research"
 PINECONE_ENVIRONMENT = "us-east-1"
 DIMENSION = 384  # Dimension for text-embedding-ada-002
 
 
-os.environ["GOOGLE_API_KEY"] = ""
-genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
-model = genai.GenerativeModel("gemini-1.5-pro")
+# os.environ["GOOGLE_API_KEY"] = GENAI_API_KEY
+# genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
+# model = genai.GenerativeModel("gemini-1.5-pro")
 
 # Embedding model
 embedder = SentenceTransformer("all-MiniLM-L6-v2")

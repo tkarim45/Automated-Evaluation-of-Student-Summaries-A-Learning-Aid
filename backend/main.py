@@ -8,6 +8,9 @@ import google.generativeai as genai
 import torch
 from argparse import Namespace
 import pickle
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 from utils.bert import BertForSequenceRegression
@@ -51,7 +54,10 @@ model_adhd_debarta.load_state_dict(
 with open("Models/Not ADHD/Debarta/bert_tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
 
-os.environ["GOOGLE_API_KEY"] = ""
+# load the Gemini API key from environment variable
+GENAI_API_KEY = os.getenv("GOOGLE_API_KEY")
+
+os.environ["GOOGLE_API_KEY"] = GENAI_API_KEY
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 model = genai.GenerativeModel("gemini-1.5-pro")
 
