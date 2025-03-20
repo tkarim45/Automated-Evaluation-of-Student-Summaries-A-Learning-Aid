@@ -5,8 +5,9 @@
 1. [Project Overview](#project-overview)
 2. [Tech Stack](#tech-stack)
 3. [Installation](#installation)
-4. [Contributing](#contributing)
-5. [License](#license)
+4. [Environment Variables](#environment-variables)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 ## Project Overview
 
@@ -60,6 +61,15 @@ Follow these steps to set up the project locally:
    npm run build
    ```
    Creates an optimized build in the `build/` folder.
+
+## Environment Variables
+
+The project uses environment variables to configure the app. Create a `.env` file in the backend directory and add the following variables:
+
+```env
+GOOGLE_API_KEY=your-google-api-key
+PINECONE_API_KEY=your-pinecone-api-key
+```
 
 ## Contributing
 
