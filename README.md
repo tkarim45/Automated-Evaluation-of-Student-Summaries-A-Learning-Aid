@@ -1,6 +1,11 @@
-<h1 align="center"> <span className="text-blue-200 text-xl font-bold">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRHvTXfecFw4TUtwS6_7MW2XIQRRX1S0MMoQ&s" alt="ADHD Eval" className="w-8 h-8 rounded-full" />
-          </span>Automated Evaluation of Student Summaries: A Learning Aid</h1>
+<h1 align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRHvTXfecFw4TUtwS6_7MW2XIQRRX1S0MMoQ&s" 
+       alt="ADHD Eval" 
+       width="32" 
+       height="32" 
+       style="border-radius: 50%;" />
+  Automated Evaluation of Student Summaries: A Learning Aid
+</h1>
 
 ## Table of Contents
 
