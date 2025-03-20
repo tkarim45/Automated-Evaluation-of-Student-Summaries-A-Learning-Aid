@@ -1,8 +1,8 @@
 <h1 align="center">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRHvTXfecFw4TUtwS6_7MW2XIQRRX1S0MMoQ&s" 
        alt="ADHD Eval" 
-       width="32" 
-       height="32" 
+       width="36" 
+       height="36" 
        style="border-radius: 50%;" />
   Automated Evaluation of Student Summaries: A Learning Aid
 </h1>
