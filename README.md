@@ -8,15 +8,11 @@
 4. [Contributing](#contributing)
 5. [License](#license)
 
----
-
 ## Project Overview
 
 This frontend is part of a larger system aimed at automating the evaluation of student summaries. Built with React and styled with Tailwind CSS, it provides a responsive and user-friendly interface for students, educators, and administrators. Key functionalities include a dashboard, chatbot assistance, quiz integration, and informational pages.
 
 The project was initialized with `create-react-app` and has been customized to support ADHD-friendly design principles, ensuring accessibility and ease of use.
-
----
 
 ## Tech Stack
 
@@ -24,8 +20,6 @@ The project was initialized with `create-react-app` and has been customized to s
 - **Tailwind CSS**: Utility-first CSS framework for styling (`tailwind.config.js`).
 - **Node.js**: Runtime environment for development and building.
 - **Git**: Version control system for tracking changes.
-
----
 
 ## Installation
 
@@ -67,8 +61,6 @@ Follow these steps to set up the project locally:
    ```
    Creates an optimized build in the `build/` folder.
 
----
-
 ## Contributing
 
 Contributions are welcome! To contribute:
@@ -80,8 +72,6 @@ Contributions are welcome! To contribute:
 5. Open a Pull Request.
 
 Please ensure your code follows ESLint rules (if configured) and includes relevant documentation.
-
----
 
 ## License
 
