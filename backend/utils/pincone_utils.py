@@ -14,7 +14,7 @@ PINECONE_ENVIRONMENT = "us-east-1"
 DIMENSION = 384  # Dimension for text-embedding-ada-002
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDknsuaSlcs3rAn5coQ_8GI_unD58XjQDc"
+os.environ["GOOGLE_API_KEY"] = ""
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 model = genai.GenerativeModel("gemini-1.5-pro")
 
