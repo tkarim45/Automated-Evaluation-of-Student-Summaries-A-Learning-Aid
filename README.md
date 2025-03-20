@@ -1,4 +1,4 @@
-# Automated Evaluation of Student Summaries: A Learning Aid - Frontend
+<h1 align="center">Automated Evaluation of Student Summaries: A Learning Aid</h1>
 
 ## Table of Contents
 
@@ -17,10 +17,11 @@ The project was initialized with `create-react-app` and has been customized to s
 
 ## Tech Stack
 
-- **React**: JavaScript library for building the UI (v18.2.0).
-- **Tailwind CSS**: Utility-first CSS framework for styling (`tailwind.config.js`).
-- **Node.js**: Runtime environment for development and building.
-- **Git**: Version control system for tracking changes.
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![React](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/tailwindcss-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Node.js](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ## Installation
 
